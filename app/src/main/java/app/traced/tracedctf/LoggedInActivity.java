@@ -23,7 +23,7 @@ String flag;
         flagTextView.setText(flag);
 
         if (flag.length() > 9){
-            ascii.setText(getResources().getString(R.string.aliveCow));
+            ascii.setText(getResources().getString(R.string.aliveFox));
         }
     }
 

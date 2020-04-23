@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:fontFamily="serif-monospace"
-        android:text="@string/deadCow"
+        android:text="@string/deadFox"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@android:color/holo_red_dark"
         android:textStyle="bold"
