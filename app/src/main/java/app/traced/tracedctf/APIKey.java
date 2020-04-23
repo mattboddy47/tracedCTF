@@ -116,8 +116,10 @@ public class APIKey {
             //username7 and password7 success
             key = getAPIKey7();
             return key;
+        } else {
+            key = "completely wrong";
+            return key;
         }
-        return key;
     }
     private static String getAPIKey1(){
         StringBuilder keyBuilder = new StringBuilder(v);
