@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">tracedCTF</string>
+    <string name="obscureUsername">u53rn4m3</string>
+    <string name="obscurePassword">1337</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+
+    <string name="deadCow">
+        &#160;((...))\n
+        (&#160;x&#160;x&#160;)\n
+        &#160;\\&#160;&#160;&#160;/\n
+        &#160;&#160;^_^\n
+    </string>
+    <string name="aliveCow">
+        &#160;((...))\n
+(&#160;0&#160;0&#160;)\n
+&#160;\\&#160;&#160;&#160;/\n
+&#160;&#160;^_^\n
+    </string>
+</resources>

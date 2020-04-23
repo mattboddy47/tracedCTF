@@ -1,0 +1,90 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId 'app.traced.tracedctf'
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        def CONFIG = { k -> "\"${project.properties.get(k)}\"" }
+        debug {
+            buildConfigField "String", "a", CONFIG("r")
+            buildConfigField "String", "b", CONFIG("u")
+            buildConfigField "String", "c", CONFIG("t")
+            buildConfigField "String", "d", CONFIG("e")
+            buildConfigField "String", "e", CONFIG("p")
+            buildConfigField "String", "f", CONFIG("q")
+            buildConfigField "String", "g", CONFIG("k")
+            buildConfigField "String", "h", CONFIG("g")
+            buildConfigField "String", "i", CONFIG("b")
+            buildConfigField "String", "j", CONFIG("a")
+            buildConfigField "String", "k", CONFIG("f")
+            buildConfigField "String", "l", CONFIG("m")
+            buildConfigField "String", "m", CONFIG("d")
+            buildConfigField "String", "n", CONFIG("c")
+            buildConfigField "String", "o", CONFIG("n")
+            buildConfigField "String", "p", CONFIG("l")
+            buildConfigField "String", "q", CONFIG("i")
+            buildConfigField "String", "r", CONFIG("s")
+            buildConfigField "String", "s", CONFIG("j")
+            buildConfigField "String", "t", CONFIG("o")
+            buildConfigField "String", "u", CONFIG("h")
+            buildConfigField "String", "v", CONFIG("v")
+            buildConfigField "String", "w", CONFIG("w")
+            buildConfigField "String", "x", CONFIG("x")
+            buildConfigField "String", "y", CONFIG("y")
+            buildConfigField "String", "z", CONFIG("z")
+            buildConfigField "String", "aa", CONFIG("aa")
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField "String", "a", CONFIG("r")
+            buildConfigField "String", "b", CONFIG("u")
+            buildConfigField "String", "c", CONFIG("t")
+            buildConfigField "String", "d", CONFIG("e")
+            buildConfigField "String", "e", CONFIG("p")
+            buildConfigField "String", "f", CONFIG("q")
+            buildConfigField "String", "g", CONFIG("k")
+            buildConfigField "String", "h", CONFIG("g")
+            buildConfigField "String", "i", CONFIG("b")
+            buildConfigField "String", "j", CONFIG("a")
+            buildConfigField "String", "k", CONFIG("f")
+            buildConfigField "String", "l", CONFIG("m")
+            buildConfigField "String", "m", CONFIG("d")
+            buildConfigField "String", "n", CONFIG("c")
+            buildConfigField "String", "o", CONFIG("n")
+            buildConfigField "String", "p", CONFIG("l")
+            buildConfigField "String", "q", CONFIG("i")
+            buildConfigField "String", "r", CONFIG("s")
+            buildConfigField "String", "s", CONFIG("j")
+            buildConfigField "String", "t", CONFIG("o")
+            buildConfigField "String", "u", CONFIG("h")
+            buildConfigField "String", "v", CONFIG("v")
+            buildConfigField "String", "w", CONFIG("w")
+            buildConfigField "String", "x", CONFIG("x")
+            buildConfigField "String", "y", CONFIG("y")
+            buildConfigField "String", "z", CONFIG("z")
+            buildConfigField "String", "aa", CONFIG("aa")
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}
