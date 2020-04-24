@@ -1,5 +1,5 @@
 # tracedCTF
-A capture the flag, designed to test your skill surrounding Android security
+A capture the flag, designed to test your skill surrounding Android security.
 
 The ideal way to test your android incident response and cyber security skills with this lab is by installing the APK on a device and attempting to analyse what it's doing. 
 
