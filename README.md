@@ -11,3 +11,8 @@ If you're stuck please feel free to comment in the traced subreddit.
 https://www.reddit.com/r/traced/
 
 No spoilers should be given in this subreddit, but hopefully the traced team will help point you in the right direction.
+
+Happy hacking!
+
+
+![CTF Image](/tracedCTF_screenshot.jpg)
