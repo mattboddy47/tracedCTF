@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         // username and password 1
         APIKey apiKey = new APIKey(username.getText().toString(), password.getText().toString(), this);
 
-       if (apiKey.getKey() != "completely wrong") {
+       if (!apiKey.getKey().equals("completely wrong")) {
             //username7 and password7 success
             loginIntent.putExtra("apiKey", apiKey.getKey());
             startActivity(loginIntent);
